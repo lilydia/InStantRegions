@@ -1,142 +1,42 @@
-/* CSS Document */
-/*
-******************
-* =pics
-******************
-*/
-
-
 body {
-background-image: url(../img/bk.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-font-size:16px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../img/bk.jpg")
 }
 
-.banner{
-	background: url(../img/banner2.jpg)  no-repeat;
+#contentBody {
+	margin-left: auto;
+	margin-right: auto;
 	width: 960px;
-	height: 333px;
+	height: auto;
+	background: #FFF;
 }
 
-.logo{
-	margin:10px 10px 10px;
-	background: url(../img/logo.jpg) no-repeat;
-	text-indent:-999999px;
-	width: 400px;
-	height: 55px;
+#header {
+	height: 100px;
 }
 
-.pic{
-	background: url(https://github.com/lilydia/WeActSociety/blob/gh-pages/images/pic.jpg?raw=true)  no-repeat;
-	width: 343px;
-	height: 270px;
+#logo {
+	height: 100px;
+	width: auto;
 }
 
-.founder{
-	background: url(https://github.com/lilydia/WeActSociety/blob/gh-pages/images/founder.jpg?raw=true)  no-repeat;
-	width: 250px;
-	height: 300px;
+#chatBody {
+	max-height: 1000px;
 }
 
-header h1 {
-	margin:10px 10px 10px;
-	background: url(../img/logo.jpg) no-repeat;
-	text-indent:-999999px;
-	width: 400px;
-	height: 55px;
+#chatList {
+	padding: 0px;
+	width: 960px;
+	list-style-type: none;
 }
 
-
-
-/*
-******************
-* =header
-******************
-*/
-
-
-header {
-	overflow: hidden;
+#chatList ul {
+	list-style-type: none;
 }
 
-/*
-******************
-* =main
-******************
-*/
-.main {
-	margin-top: 20px;
-}
-
-
-.selected_btn
-{
-    border:1px solid blue;
-    font-family:helvetica;
-    color:blue !important;            
-}
-
-/*
-******************
-* =footer
-******************
-*/
-
-footer {
-	padding-top:60px;
-	padding-bottom:60px;
-	text-align:center;
-	clear: both;
-}
-
-.fb {
-	float: right;
-	font-size: 28px;
-	position:fixed;
-    bottom:0px;
-	left:5px
-    width:100%;
-    padding-top:1px;
-    padding-bottom:1px;
-    color:#ffffff;
-	/*background-color:#336699;*/
-}
-
-.fb a:hover {
-	color:#7e7e7e;
-	text-decoration: none;
-}
- 
-/*
-******************
-* =nav
-******************
-*/
-
-nav {
-	float: right;
-	
-}
-nav li {
-   display: inline;
-   color:#ffffff;
-   text-decoration: none;
-   text-transform: uppercase;
-   padding-right:20px;
-   padding-bottom: 30px;
-   border-right:1px dotted #6D7989;
-   text-shadow:1px 1px 0 #FFF;
-   font-weight:bold;
-   font-size:20px;
-}
-
-nav a {
-	color: #004d23;
-
-}
-
-nav a:hover, .selected {
-	color:#7e7e7e;
-	text-decoration: none;
+#chatBox {
+	border: none;
+	border-top: solid 1px #DDD;
+	width: 100%;
 }
