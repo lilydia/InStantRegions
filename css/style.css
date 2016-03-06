@@ -38,9 +38,11 @@ body {
 #chatBox {
 	border: none;
 	border-top: solid 1px #DDD;
-	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: calc(100% - 10px);
 	background-color: #2dc4cf;
-	height:50px
+	height:40px
 }
 
 nav {
@@ -82,7 +84,15 @@ nav a:hover, .selected {
 	
 }
 
+.user {
+	font-size: 10px;
+}
 
+#chatList li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #DDD;
+}
 
 
 
