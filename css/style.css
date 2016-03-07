@@ -39,4 +39,50 @@ body {
 	border: none;
 	border-top: solid 1px #DDD;
 	width: 100%;
+	background-color: #2dc4cf;
+	height:50px
 }
+
+nav {
+	text-align:center;
+	
+}
+
+nav li {
+   display: inline;
+   color:#ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding-right:20px;
+   padding-bottom: 30px;
+   border-right:1px dotted #6D7989;
+   text-shadow:1px 1px 0 #FFF;
+   font-weight:bold;
+   font-size:20px;
+}
+
+nav a {
+	color: #004d23;
+
+}
+
+nav a:hover, .selected {
+	color:#7e7e7e;
+	text-decoration: none;
+}
+
+#block1 {
+	color: #ffc31f;
+	font-size: 25px;
+}
+
+#block2 {
+	color:  #2dc4cf;
+	font-size: 25px;
+	
+}
+
+
+
+
+
