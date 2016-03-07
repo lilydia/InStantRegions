@@ -7,6 +7,8 @@
 	};
 })();
 
+setInterval(fetchMessages, 2000);
+
 function updateChatList() {
 	var list = document.getElementById("chatList");
 	list.innerHTML = "";
@@ -62,10 +64,10 @@ function fetchMessages() {
 	}
 	
 	httpRequest.send(JSON.stringify({
-		lat: 70,
-		lon: 40,
+		lat: 70.0000001,
+		lon: 40.0000001,
 		dist: 3,
-		tag: "default"
+		tag: "tag"
 	}));
 }
 
@@ -91,6 +93,6 @@ function postMessage(user, text) {
 		dist: 3,
 		message: text,
 		user: user,
-		tags: "default"
+		tags: "tag"
 	}));
 }
