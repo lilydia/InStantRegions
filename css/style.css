@@ -92,19 +92,17 @@ nav a:hover, .selected {
 	font-size: 10px;
 }
 
-<<<<<<< HEAD
 #header h1{
-	float: right;
+	float:right;
 	font-size:80px;
-	padding-right: 20px;
+	padding-right:20px;
+	
 }
-=======
+
 #chatList li {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top: 1px solid #DDD;
 }
-
->>>>>>> 798090639c1465611ed45c2926ee090c5e56a0e7
 
 
